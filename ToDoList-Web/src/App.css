@@ -1,0 +1,74 @@
+
+body{
+  background-color: #536878 !important;
+}
+#editButton{
+  width: 90px;
+}
+#taskButtons{
+  padding-left: 40px;
+}
+#taskDescription{
+  padding-left: 20px;
+}
+#task{
+  /*width: 300px;*/
+}
+
+#addDel{
+  size: 10px;
+
+}
+
+.deleteAndAddButtonsContains {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+.deleteAllButton {
+  width: 20% !important;
+  flex: none !important;
+  margin-left: -70px !important;
+}
+
+
+@keyframes slideTop {
+  100% { top: -30px; }
+} 
+
+.App{
+  align-self: center;
+
+}
+
+
+
+.taskList{
+  /*width: 100px;*/
+  margin:fill !important ;
+  align-self: center;
+}
+
+.jumbotron{
+  background-color: #2A2A2A !important;
+ color: #FFFFFF !important;
+height: 255px !important;
+
+
+}
+
+.jumbotronContetn{
+  width: 800px;
+  height: 110px;
+  margin:0 auto !important;
+
+}
+.slideBottom {
+  position: relative;
+  bottom: -700px;
+  animation: slide 0.5s forwards;
+  background-color: #83878D !important;
+}
+@keyframes slide {
+  100% { bottom: 0; }
+} 
